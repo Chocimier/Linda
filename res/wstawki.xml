@@ -1,0 +1,86 @@
+<menu name='Wszystkie'>
+	<menu name='Instrukcję'>
+		<item name='Warunek'>if  then&#10;&#10;end&#10;</item>
+		<item name='Funkcję'>function ()&#10;&#10;end&#10;</item>
+		<item name='Pętlę for'>for j=, do&#10;&#10;end&#10;</item>
+		<item name='Pętlę while'>while  do&#10;&#10;end&#10;</item>
+		<item name='Werunek else'>&#10;else&#10;</item>
+		<item name='Warunek elseif'>&#10;elseif  then&#10;</item>
+		<item name='Pętlę repeat'>repeat&#10;&#10;until ;&#10;</item>
+	</menu>
+	<menu name='Słowo kluczowe'>
+		<item name='return'>return </item>
+		<item name='local'>local </item>
+		<item>true</item>
+		<item>false</item>
+		<item>nil</item>
+		<item>not</item>
+		<item>and</item>
+		<item>or</item>
+		<item>break</item>
+		<item>goto</item>
+	</menu>
+	<menu name='Funkcję'>
+		<item name='print'>print()</item>
+		<item name='tonumber'>tonumber()</item>
+		<item name='tostring'>tostring()</item>
+		<menu name='string…'>
+			<item name='byte'>string.byte()</item>
+			<item name='char'>string.char()</item>
+			<item name='dump'>string.dump()</item>
+			<item name='find'>string.find(,)</item>
+			<item name='format'>string.format()</item>
+			<item name='gmatch'>string.gmatch(,)</item>
+			<item name='gsub'>string.gsub(,,)</item>
+			<item name='len'>string.len()</item>
+			<item name='lower'>string.lower()</item>
+			<item name='match'>string.match(,)</item>
+			<item name='pack'>string.pack(,)</item>
+			<item name='packsize'>string.packsize()</item>
+			<item name='rep'>string.rep(,)</item>
+			<item name='reverse'>string.reverse()</item>
+			<item name='sub'>string.sub(,)</item>
+			<item name='unpack'>string.unpack(,)</item>
+			<item name='upper'>string.upper()</item>
+		</menu>
+		<menu name='math…'>
+		</menu>
+		<menu name='table…'>
+		</menu>
+		<menu name='utf8…'>
+		</menu>
+		<menu name='io…'>
+		</menu>
+		<menu name='os…'>
+		</menu>
+		<menu name='debug…'>
+		</menu>
+		<menu name='coroutine…'>
+		</menu>
+		<menu name='package…'>
+		</menu>
+	</menu>
+	<menu name='Operator'>
+		<item>and</item>
+		<item>or</item>
+		<item>==</item>
+		<item>&gt;=</item>
+		<item>&lt;=</item>
+		<item>~=</item>
+		<item>&gt;&gt;</item>
+		<item>&lt;&lt;</item>
+		<item>+</item>
+		<item>-</item>
+		<item>*</item>
+		<item>/</item>
+		<item>//</item>
+		<item>^</item>
+		<item>%</item>
+		<item>&amp;</item>
+		<item>~</item>
+		<item>|</item>
+		<item>..</item>
+		<item>&lt;</item>
+		<item>&gt;</item>
+	</menu>
+</menu>
