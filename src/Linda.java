@@ -37,7 +37,6 @@ public class Linda extends MIDlet implements CommandListener, MenuCaller {
         code.addCommand(comExit);
         code.setCommandListener(this);
 
-
         show(code);
     }
 

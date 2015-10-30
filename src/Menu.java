@@ -79,9 +79,6 @@ public class Menu extends List implements CommandListener {
         addCommand(comBack);
         setCommandListener(this);
 
-        System.out.println(main == null);
-        System.out.println(main);
-
         setCurrent((MenuData)main);
     }
 
@@ -93,7 +90,6 @@ public class Menu extends List implements CommandListener {
         setTitle(current.name);
 
         for (int i=0; i<current.items.size(); ++i) {
-        System.out.println(((MenuItemData)current.items.elementAt(i)).name);
             append(((MenuItemData)current.items.elementAt(i)).name, null);
         }
     }

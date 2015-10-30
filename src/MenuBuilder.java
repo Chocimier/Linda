@@ -15,9 +15,6 @@ public class MenuBuilder extends DefaultHandler {
     protected MenuItemData currentItem = null;
     protected int idCounter = 0;
 
-    public MenuBuilder() {
-    }
-
     public void startElement(String ns, String localName, String qName, Attributes attrs) throws SAXException {
         MenuItemData newItem;
 
